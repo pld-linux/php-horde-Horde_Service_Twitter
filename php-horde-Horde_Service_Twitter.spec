@@ -4,7 +4,7 @@
 Summary:	%{pearname} - Horde Twitter client
 Name:		php-horde-Horde_Service_Twitter
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
@@ -49,5 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog install.log
 %doc docs/Horde_Service_Twitter/*
 %{php_pear_dir}/.registry/.channel.*/*.reg
+%dir %{php_pear_dir}/Horde/Service
 %{php_pear_dir}/Horde/Service/Twitter.php
 %{php_pear_dir}/Horde/Service/Twitter
