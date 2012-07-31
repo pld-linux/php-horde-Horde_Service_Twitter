@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Twitter client
 Name:		php-horde-Horde_Service_Twitter
-Version:	1.0.0
-Release:	2
+Version:	1.1.4
+Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	4df9b3e6ff60f392a72878d8609c105c
+# Source0-md5:	3bbb1b27bb6ef29da927da05097a2a34
 URL:		http://pear.horde.org/package/Horde_Service_Twitter/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
