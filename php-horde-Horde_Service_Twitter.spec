@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Service_Twitter
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Twitter client
 Name:		php-horde-Horde_Service_Twitter
 Version:	1.1.4
